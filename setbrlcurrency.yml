@@ -1,6 +1,8 @@
 name: setbrlcurrency
 version: 0.1.0
 patches:
-  openedx-lms-common-settings: |
-    -"BRL"
-    -"R$"
+  lms-env: |
+    "PAID_COURSE_REGISTRATION_CURRENCY:
+	- "BRL"
+	- "R$"
+     "
