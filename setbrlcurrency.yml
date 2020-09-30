@@ -2,7 +2,5 @@ name: setbrlcurrency
 version: 0.1.0
 patches:
   lms-env: |
-    "PAID_COURSE_REGISTRATION_CURRENCY:
-	- "BRL"
-	- "R$"
-     "
+    "PAID_COURSE_REGISTRATION_CURRENCY":['BRL','R$']
+
